@@ -59,3 +59,5 @@ guard-%:
         echo "You must provide the ${*} variable" ; \
         exit 1 ; \
     fi
+
+-include Makefile.local
