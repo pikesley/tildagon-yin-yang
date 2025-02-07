@@ -2,7 +2,7 @@ APP = $(shell basename $$(pwd))
 
 all: format test clean
 
-push:
+push: convert-conf
 	python -m mpremote cp -r * :/apps/${APP}/
 
 mkdir:
@@ -12,6 +12,9 @@ connect:
 	python -m mpremote
 
 deploy: push connect
+
+convert-conf:
+	@python scripts/conf_yaml_to_json.py
 
 format:
 	ruff format
