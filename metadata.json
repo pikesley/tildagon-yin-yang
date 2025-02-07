@@ -1,0 +1,5 @@
+{
+    "name": "Skellington",
+    "path": "apps.skellington.app",
+    "callable": "Skellington"
+  }
