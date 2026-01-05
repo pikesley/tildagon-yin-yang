@@ -1,5 +1,5 @@
 {
-    "name": "Skellington",
-    "path": "apps.skellington.app",
-    "callable": "Skellington"
+    "name": "YinYang",
+    "path": "apps.yin_yang.app",
+    "callable": "YinYang"
   }

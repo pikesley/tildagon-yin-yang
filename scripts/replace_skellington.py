@@ -11,7 +11,7 @@ for entry in all_files:
         fixed_lines = []
 
         fixed_lines = [
-            line.replace("Skellington", camel_name).replace("skellington", snake_name)
+            line.replace("YinYang", camel_name).replace("yin_yang", snake_name)
             for line in lines
         ]
 

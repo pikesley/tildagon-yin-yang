@@ -1,6 +1,6 @@
 [app]
 # The name of your app as displayed in the menu
-name = "Skellington"
+name = "YinYang"
 
 # The submenu where your app should appear.
 # One of: "Badge", "Music", "Media", "Apps", "Games"
@@ -18,7 +18,7 @@ category = "Games"
 
 [entry]
 # The name of your entry point `Application` class
-class = "Skellington"
+class = "YinYang"
 
 [metadata]
 # Your nickname.  Must be at most 32 characters!
@@ -31,7 +31,7 @@ license = "MIT"
 url = "https://www.github.com/"
 
 # Description of your app.  Maximum 140 characters!
-description = "Skellington"
+description = "YinYang"
 
 # Version number of your app.  If you push a commit where this number is
 # increased, we interpret this as a new version being released.

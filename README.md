@@ -1,3 +1,3 @@
-# Skellington
+# YinYang
 
-* run `python scripts/replace_skellington.py`
+* run `python scripts/replace_yin_yang.py`

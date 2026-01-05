@@ -1,4 +1,4 @@
-## Copyright (c) 2025 Sam Pikesley
+## Copyright (c) 2026 Sam Pikesley
 
 # MIT License
 

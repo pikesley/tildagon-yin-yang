@@ -5,8 +5,8 @@ apps = os.listdir("/apps")
 path = ""
 ASSET_PATH = "apps//"
 
-if "github_user_tildagon_skellington" in apps:
-    ASSET_PATH = "/apps/github_user_tildagon_skellington/"
+if "github_user_tildagon_yin_yang" in apps:
+    ASSET_PATH = "/apps/github_user_tildagon_yin_yang/"
 
-if "skellington" in apps:
-    ASSET_PATH = "apps/skellington/"
+if "yin_yang" in apps:
+    ASSET_PATH = "apps/yin_yang/"
