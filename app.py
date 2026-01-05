@@ -34,17 +34,33 @@ class YinYang(app.App):
 
         radius = full_radius / self.count
 
-        ctx.rgba(255, 0, 0, 1.0)
+        count = 0
         for centre, radius in circles(self.count):
+            ctx.rgba(count, 0, 0, 1.0)
             ctx.arc(
                 centre,
                 0,
                 radius,
                 0,
-                2 * pi,
+                0-pi,
                 True,  # noqa: FBT003
-            ).stroke()
+            ).fill()
+            count += 0.2
 
+
+        ctx.rotate(pi)
+        count = 0
+        for centre, radius in circles(self.count):
+            ctx.rgba(count, 0, 0, 1.0)
+            ctx.arc(
+                centre,
+                0,
+                radius,
+                0,
+                0-pi,
+                True,  # noqa: FBT003
+            ).fill()
+            count += 0.2
 
 
     def scan_buttons(self):
@@ -60,5 +76,6 @@ class YinYang(app.App):
         if self.button_states.get(BUTTON_TYPES["DOWN"]):
             self.button_states.clear()
             self.count -= 1
+
 
 __app_export__ = YinYang
