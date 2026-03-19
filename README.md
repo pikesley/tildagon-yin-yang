@@ -1,3 +1,3 @@
-# YinYang
+# Yin-Yang
 
-* run `python scripts/replace_yin_yang.py`
+From [this toot](https://mathstodon.xyz/@GerardWestendorp/115651927734445615)

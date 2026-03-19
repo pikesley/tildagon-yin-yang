@@ -1,1 +1,17 @@
-null
+{
+  "default-count-index": 1,
+  "hue-increment": 0.002,
+  "led-brightness": 0.5,
+  "spin-speed": {
+    "default": 0.1,
+    "max": 0.5
+  },
+  "valid-counts": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8
+  ]
+}
